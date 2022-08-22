@@ -62,9 +62,9 @@ function LoginPage() {
   return (
     <div className="min-h-screen bg-no-repeat bg-cover bg-center bg-gradient-to-r from-blue-100 to-blue-500">
       <div className="flex justify-end">
-        <div className="bg-white min-h-screen w-1/2 flex justify-center items-center">
-          <div>
-            <form onSubmit={handleLogin}>
+        <div className="bg-white min-h-screen w-1/2 flex justify-center items-center ">
+          <div className="w-96">
+            <form className="w-full" onSubmit={handleLogin}>
               <div>
                 <span className="text-sm text-gray-900">
                   {t.formatMessage(messages.loginWelcomeMessage)}
