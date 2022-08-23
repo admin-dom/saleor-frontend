@@ -41,7 +41,7 @@ export function ShippingAddressSection({ active, checkout }: ShippingAddressSect
           firstName: billingAddress.firstName || "",
           lastName: billingAddress.lastName || "",
           phone: billingAddress.phone || "",
-          country: (billingAddress.country.code as CountryCode) || "PL",
+          country: (billingAddress.country.code as CountryCode) || "VI",
           streetAddress1: billingAddress.streetAddress1 || "",
           city: billingAddress.city || "",
           postalCode: billingAddress.postalCode || "",
